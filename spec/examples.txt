@@ -1,8 +1,11 @@
-example_id                                           | status  | run_time        |
----------------------------------------------------- | ------- | --------------- |
-./spec/features/users/user_can_login_spec.rb[1:1]    | passed  | 1.31 seconds    |
-./spec/features/users/user_can_login_spec.rb[1:2]    | passed  | 0.11325 seconds |
-./spec/features/users/user_can_register_spec.rb[1:1] | passed  | 0.15113 seconds |
-./spec/features/users/user_can_register_spec.rb[1:2] | passed  | 0.12195 seconds |
-./spec/helpers/home_helper_spec.rb[1:1]              | pending | 0.00002 seconds |
-./spec/models/user_spec.rb[1:1]                      | pending | 0.00001 seconds |
+example_id                                                   | status  | run_time        |
+------------------------------------------------------------ | ------- | --------------- |
+./spec/features/events/user_can_create_an_event_spec.rb[1:1] | failed  | 0.0133 seconds  |
+./spec/features/events/user_can_create_an_event_spec.rb[1:2] | passed  | 0.01874 seconds |
+./spec/features/users/user_can_login_spec.rb[1:1]            | passed  | 1.38 seconds    |
+./spec/features/users/user_can_login_spec.rb[1:2]            | passed  | 0.0383 seconds  |
+./spec/features/users/user_can_register_spec.rb[1:1]         | passed  | 0.10955 seconds |
+./spec/features/users/user_can_register_spec.rb[1:2]         | passed  | 0.06214 seconds |
+./spec/helpers/events_helper_spec.rb[1:1]                    | pending | 0.00002 seconds |
+./spec/helpers/home_helper_spec.rb[1:1]                      | pending | 0.00002 seconds |
+./spec/models/user_spec.rb[1:1]                              | pending | 0.00002 seconds |
